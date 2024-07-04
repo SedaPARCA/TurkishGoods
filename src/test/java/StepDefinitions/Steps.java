@@ -51,7 +51,9 @@ public class Steps {
         lc.myJsClick(lc.KategoriSec);
         Select select =new Select(lc.KategoriSec);
         select.selectByIndex(2);
-        lc.myClick(lc.UrünSec);
+        Thread.sleep(1000);
+
+        lc.myJsClick(lc.UrünSec);
         Select select2 =new Select(lc.UrünSec);
         select.selectByIndex(1);
         lc.mySendKeys(lc.MessageBox,message);
