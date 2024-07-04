@@ -24,7 +24,7 @@ Feature: FilltheFormInHomePage
     And   Click Submit Message Button
     Then  Verify InvalidLastname Message
 
-  #Telefon numarasını boş bırakma ya da geçersiz numara girme -Case5
+  #Telefon numarasını boş bırakma ya da geçersiz numara girme -Case5 --
   @RegressionTest
   Scenario: Validate form with missing phonenumber field
     Given Leave the phonenumber box blank or enter invalid number  and enter other information
