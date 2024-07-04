@@ -83,7 +83,7 @@ public class Steps {
     @When("Click the Get Offer Now Button in Product Page")
     public void clickTheGetOfferNowButtonInProductPage() throws InterruptedException {
         Thread.sleep(1000);
-        lc.myClick(lc.GetanOfferNowinProductPage);
+        lc.myJsClick(lc.GetanOfferNowinProductPage);
     }
 
     @And("Verification of Access to the Form")
