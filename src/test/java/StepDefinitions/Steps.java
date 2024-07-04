@@ -42,7 +42,7 @@ public class Steps {
 
         JavascriptExecutor js= (JavascriptExecutor) GWD.getDriver();
         js.executeScript("arguments[0].scrollIntoView(false);",lc.SendButton);
-        Thread.sleep(1000);
+        Thread.sleep(1000); //s
 
         lc.mySendKeys(lc.Ad,Name);
         lc.mySendKeys(lc.Soyad,LastName);
