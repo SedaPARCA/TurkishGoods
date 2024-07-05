@@ -4,7 +4,7 @@ Feature: FilltheFormviaCategorySection
   Given Navigate to Url
 
   #Category bölümünden başarılı giriş - Case12
-  @SmokeTest
+  @SmokeTest @RegressionTest
   Scenario: Successful registration of the form via Category Section
   Given Click the Show Category Button for Product Group
   When Click the Show Product button for the Selected Product

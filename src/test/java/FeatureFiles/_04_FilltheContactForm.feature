@@ -4,7 +4,7 @@ Feature: FilltheContactForm
   Given Navigate to Url
 
   #Contact Form USA Başarılı Giriş -Case13
-  @SmokeTest
+  @SmokeTest @RegressionTest
   Scenario: Successful registration of the Contact form for USA
   Given Click the Contact Button
   When Click the Submit form button for the county

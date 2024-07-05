@@ -5,7 +5,7 @@ Feature: FilltheFormviaPopup
 
 
 #Popup üzerinden başarılı giriş -Case27
-@SmokeTest
+@SmokeTest @RegressionTest
 Scenario: Successful registration of the form from Contact us Pop up
 Given Click the Popup
 When Choose the Fill Up the Form

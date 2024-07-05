@@ -39,7 +39,7 @@ Feature: FilltheFormInHomePage
     Then  Verify InvalidCategoryName Message
 
   # Home pagedeki form un başarılı girişi-Case7
-  @SmokeTest
+  @SmokeTest @RegressionTest
   Scenario: Successful registration of the form in Home Page
     And Fill the Form
     Then Click Submit Message Button

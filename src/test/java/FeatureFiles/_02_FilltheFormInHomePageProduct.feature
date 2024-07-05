@@ -4,7 +4,7 @@ Feature: FilltheFormInHomePageProduct
   Given Navigate to Url
 
   # Homee Pagedeki Apple ürünü için Get an Offer Now Üzerinden başarılı Giriş -Case8
-  @SmokeTest
+  @SmokeTest @RegressionTest
   Scenario: Successful registration of the form from Apple Get an Offer Now Button
   Given Click the Get Offer Now Button in Home Page
   When Click the Get Offer Now Button in Product Page
